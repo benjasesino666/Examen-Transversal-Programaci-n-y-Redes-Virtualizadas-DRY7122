@@ -1,0 +1,14 @@
+# Crear una lista vacía para almacenar los nombres
+integrantes = []
+
+# Solicitar al usuario ingresar los nombres de los integrantes
+num_integrantes = int(input("Ingrese el número de integrantes: "))
+
+for i in range(num_integrantes):
+    nombre = input(f"Ingrese el nombre del integrante {i+1}: ")
+    integrantes.append(nombre)
+
+# Imprimir la lista de nombres de los integrantes
+print("\nLista de nombres de los integrantes:")
+for integrante in integrantes:
+    print(integrante)
